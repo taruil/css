@@ -1,0 +1,7 @@
+.box::after{
+    /* transform: translate(50px, 50px); */
+    transform: translate(50%, 50%);
+    /* 若是某 x,y 值不需設定，一定要設定成 0 */
+    /* transform: translate(0, 100px); */
+    /* transform: translate(100px, 0); */
+  }

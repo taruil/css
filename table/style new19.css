@@ -1,0 +1,75 @@
+body {
+  background: #ccc;
+  font-family: "Noto Sans TC";
+  padding: 20px;
+}
+
+table {
+  width: 80%;
+  height: 90vh;
+  text-align: center;
+}
+
+/* td{
+  display:flex;
+} */
+
+td:not(:last-child) {
+  background: #f5f5f5;
+}
+
+td:nth-last-of-type(2) {
+  background: #75bcb9;
+}
+
+td:not(:last-child):hover {
+  transform: scale(1.2);
+  font-weight: bold;
+  background: #242f65;
+  /* background: #9acd32; */
+  color:#fff
+}
+
+/* td:not(nth-last-of-type(2)){
+  background: #eee;
+}
+
+td:nth-last-of-type(2){
+  background: rgb(78, 155, 179);
+} */
+
+.a {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.b {
+  right: 10%;
+  top: 5%;
+  position: absolute;
+  margin:0 auto;
+
+}
+
+.c {
+  right: 10%;
+  bottom: 5%;
+  position: absolute;
+  writing-mode: vertical-rl;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.r {
+  text-align: center;
+  font-size:1rem;
+  color: red;
+}
+
+/* .flex{
+  display: flex;
+} */
+
